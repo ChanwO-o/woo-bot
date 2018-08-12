@@ -1,0 +1,11 @@
+{
+	"name": "woo-bot",
+	"version": "0.0.0",
+	"description": "Custom Twitch chat bot",
+	"main": "app.js",
+	"repository": "",
+	"author": "Chan Woo Park <14cpark@gmail.com>",
+	"dependencies": {
+		
+	}
+}
