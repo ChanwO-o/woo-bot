@@ -52,15 +52,17 @@ client.on('chat', function(channel, user, message, self) {
         case '!uptime':
             client.action('wO_o', 'uptime :');
             break;
-        case '!네크로댄서':
-        case '!necrodancer':
-            client.action('wO_o', '');
+        case '!게임':
+        case '!games':
+            client.action('wO_o', 'Necrodancer, Tetris, Counter-Strike, ETG, RhythmStar, etc.');
+            break;
+        case '!기록':
+        case '!records':
+            client.action('wO_o', 'Necrodancer Cadence speedrun: 7:55:37 Tetris sprint: 0:46:801');
             break;
         case '!빡종':
-            client.action('wO_o', '빡종 횟수: ' + '회');
-            break;
         case '!ragequit':
-            client.action('wO_o', 'ragequit count: ');
+            client.action('wO_o', '빡종 횟수(ragequit counter): ' + '회');
             break;
             
         // 훈수카운터, 샷건 카운터 (kinda like !ripdevil)
@@ -68,6 +70,4 @@ client.on('chat', function(channel, user, message, self) {
         default:
             break;
     }
-    
-//   client.action('wO_o', user['display-name'] + ' slap my hand');
 });
